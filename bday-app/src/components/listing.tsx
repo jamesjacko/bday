@@ -7,7 +7,10 @@ const Listing = (): JSX.Element => {
 			<img src={listingImg} alt="" />
 			<div className={styles.content}>
 				<h2>
-					Xbox Series S <span className={styles.price}>&pound;215.00</span>
+					Xbox Series S{" "}
+					<span className={styles.price}>
+						<span>&pound;268.75</span> &pound;215.00
+					</span>
 				</h2>
 				<p>
 					Experience next-gen speed and performance with our largest digital
@@ -18,7 +21,9 @@ const Listing = (): JSX.Element => {
 					cloud.
 				</p>
 				<div className={styles.cta}>
-					<p className={styles.price}>&pound;215.00</p>
+					<p className={styles.price}>
+						<span>&pound;268.75</span> &pound;215.00
+					</p>
 					<button className={styles.buyNow}>Buy Now</button>
 				</div>
 				<table className={styles.table}>
