@@ -1,0 +1,24 @@
+.deal {
+	background-color: #077190;
+	color: white;
+	width: var(--theme-wrapper-width);
+	max-width: var(--theme-wrapper-max-width);
+	margin: 0 auto;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	padding: 30px;
+	img{
+		height: 400px;
+		position: absolute;
+		right: 0;
+		top: -50px;
+	}
+	h2{
+		font-size: 2em;
+		margin: 0;
+	}
+	p{
+		margin: 0;
+	}
+}

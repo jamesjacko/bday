@@ -1,0 +1,12 @@
+.header {
+	padding-block: 1rem;
+
+	.container {
+		width: var(--theme-wrapper-width);
+		max-width: var(--theme-wrapper-max-width);
+		margin: 0 auto 20px;
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+}

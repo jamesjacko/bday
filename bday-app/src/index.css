@@ -1,0 +1,19 @@
+:root {
+  --theme-wrapper-max-width: 1200px;
+  --theme-wrapper-width: 90vw;
+  --red: #E53236;
+	--blue: #0163D1;
+	--yellow: #F5AE01;
+	--green: #85B815;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+body {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}

@@ -1,0 +1,18 @@
+.logo{
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	letter-spacing: -0.2rem;
+	.red{
+		color: var(--red);
+	}
+	.blue{
+		color: var(--blue);
+	}
+	.yellow{
+		color: var(--yellow);
+	}
+	.green{
+		color: var(--green);
+	}
+}
