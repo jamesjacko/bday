@@ -52,7 +52,7 @@ const Listing = (): JSX.Element => {
 				</table>
 			</div>
 			<Modal open={modal.isVisible} onClose={modal.hide}>
-				<PurchaseForm />
+				<PurchaseForm handleClose={modal.hide} />
 			</Modal>
 		</div>
 	);
