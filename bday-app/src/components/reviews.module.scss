@@ -1,0 +1,13 @@
+.reviews {
+	display: grid;
+	gap: 30px;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: var(--theme-wrapper-width);
+	max-width: var(--theme-wrapper-max-width);
+	margin: 0 auto 20px;
+}
+.reviewsTitle{
+	width: var(--theme-wrapper-width);
+	max-width: var(--theme-wrapper-max-width);
+	margin: 0 auto 20px;
+}

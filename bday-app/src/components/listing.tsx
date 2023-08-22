@@ -47,7 +47,7 @@ const Listing = (): JSX.Element => {
 					</tr>
 					<tr>
 						<td>Returns:</td>
-						<td>30 days no quibble</td>
+						<td>I mean... you can try?!</td>
 					</tr>
 				</table>
 			</div>
