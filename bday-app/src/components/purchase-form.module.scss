@@ -1,0 +1,25 @@
+.purchaseForm {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.checkoutDetails {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	dd {
+		text-align: right;
+	}
+	.price {
+		font-weight: 600;
+	}
+}
+.buyNow {
+	background-color: var(--blue);
+	color: white;
+	border: 0;
+	padding: 10px;
+	width: 150px;
+	cursor: pointer;
+	border-radius: 100vh;
+}

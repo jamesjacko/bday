@@ -1,7 +1,15 @@
 import listingImg from "../assets/xbox-listing.jpeg";
+import useModal from "../hooks/use-modal";
 import styles from "./listing.module.scss";
+import Modal from "./modal";
+import PurchaseForm from "./purchase-form";
 
 const Listing = (): JSX.Element => {
+	const modal = useModal();
+
+	const openModal = () => {
+		modal.show();
+	}
 	return (
 		<div className={[styles.listing].join(" ")} data-cy="Listing">
 			<img src={listingImg} alt="" />
@@ -24,7 +32,9 @@ const Listing = (): JSX.Element => {
 					<p className={styles.price}>
 						<span>&pound;268.75</span> &pound;215.00
 					</p>
-					<button className={styles.buyNow}>Buy Now</button>
+					<button className={styles.buyNow} onClick={openModal}>
+						Buy Now
+					</button>
 				</div>
 				<table className={styles.table}>
 					<tr>
@@ -41,6 +51,9 @@ const Listing = (): JSX.Element => {
 					</tr>
 				</table>
 			</div>
+			<Modal open={modal.isVisible} onClose={modal.hide}>
+				<PurchaseForm />
+			</Modal>
 		</div>
 	);
 };
