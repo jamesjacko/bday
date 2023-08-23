@@ -1,0 +1,25 @@
+.footer{
+	background-color: rgb(26, 28, 31);
+	height:300px;
+	color: rgb(138, 138, 138);
+	&__container{
+		width: var(--theme-wrapper-width);
+		max-width: var(--theme-wrapper-max-width);
+		margin: 0 auto;
+		padding:30px;
+		display: flex;
+		justify-content: space-between;
+		height: 100%;
+		p{
+			margin: 0;
+			text-align: right;
+		}
+		address{
+			text-align: left;
+			font-style: normal;;
+			&::first-line{
+				font-weight: bold;
+			}
+		}
+	}
+}
