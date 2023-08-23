@@ -21,12 +21,26 @@ const Listing = (): JSX.Element => {
 					</span>
 				</h2>
 				<p className={styles.description}>
-					Experience next-gen speed and performance with our largest digital
-					library yet. Enjoy more dynamic worlds, faster load times, and add
-					Xbox Game Pass Ultimate (membership sold separately) to play new games
-					on day one. Plus, enjoy hundreds of high-quality games like Minecraft,
-					Forza Horizon 5 and Halo Infinite with friends on console, PC and
-					cloud.
+					Embark on the wackiest gaming escapade with the{" "}
+					<strong>Xbox Series S</strong> – your portal to a dimension where
+					chickens race unicorns and marshmallow rainstorms are the norm!
+					Prepare your brain for a rollercoaster of <em>graphics</em> so
+					jaw-dropping, your eyebrows might just leap off your face.
+				</p>
+				<p className={styles.description}>
+					Ever dreamed of loading times shorter than a hiccup? The{" "}
+					<strong>Xbox Series S</strong> is your genie granting that wish! It's
+					so compact, you'd think it was crafted by magical gnomes in their
+					secret lair. And the controller? It's like shaking hands with a{" "}
+					<em>robot panda</em> – pure ergonomic bliss.
+				</p>
+				<p className={styles.description}>
+					Dive into <u>online play</u> and mingle with gamers from realms
+					unknown – it's like a virtual costume party with penguins and pirates!
+					Don't miss out on this cosmic dance of pixels and joy. Grab your
+					popcorn, unicorn slippers, and a sense of wonder – the{" "}
+					<strong>Xbox Series S</strong> is your spaceship to the silliest
+					galaxies of gaming!
 				</p>
 				<div className={styles.cta}>
 					<p className={styles.price}>
