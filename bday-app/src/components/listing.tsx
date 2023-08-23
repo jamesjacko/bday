@@ -17,10 +17,10 @@ const Listing = (): JSX.Element => {
 				<h2>
 					Xbox Series S{" "}
 					<span className={styles.price}>
-						<span>&pound;268.75</span> &pound;215.00
+						<span>&pound;268.88</span> &pound;242.00
 					</span>
 				</h2>
-				<p>
+				<p className={styles.description}>
 					Experience next-gen speed and performance with our largest digital
 					library yet. Enjoy more dynamic worlds, faster load times, and add
 					Xbox Game Pass Ultimate (membership sold separately) to play new games
@@ -30,7 +30,7 @@ const Listing = (): JSX.Element => {
 				</p>
 				<div className={styles.cta}>
 					<p className={styles.price}>
-						<span>&pound;268.75</span> &pound;215.00
+						<span>&pound;268.88</span> &pound;242.00
 					</p>
 					<button className={styles.buyNow} onClick={openModal}>
 						Buy Now

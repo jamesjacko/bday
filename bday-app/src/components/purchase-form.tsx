@@ -21,9 +21,9 @@ const PurchaseForm = ({ className = "purchase-form", handleClose }: PurchaseForm
 
 	useEffect(() => {
 		if (values.discountCode === "FINN_IS_GREAT") {
-			setPrice("215.00");
+			setPrice("242.00");
 		} else {
-			setPrice("268.75");
+			setPrice("268.88");
 		}
 	}, [values.discountCode]);
 

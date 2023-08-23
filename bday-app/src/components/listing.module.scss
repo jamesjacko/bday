@@ -22,7 +22,7 @@
 			font-size: 1.5rem;
 			font-weight: bold;
 			color: var(--red);
-			span{
+			span {
 				text-decoration: line-through;
 			}
 		}
@@ -46,10 +46,14 @@
 			}
 		}
 	}
-	.table{
+	.table {
 		padding: 20px;
-		td{
+		td {
 			padding-bottom: 0.5rem;
 		}
+	}
+	.description {
+		line-height: 2;
+		padding-block: 20px;
 	}
 }
